@@ -1,0 +1,138 @@
+/* global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    color: #e6ddf9;
+}
+
+:root {
+    min-height: 100vh;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-image: radial-gradient(ellipse at top left, #7f50e4, #4c05d0);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: flex-start;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+form input,
+form textarea,
+form select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form.button-group {
+    display: flex;
+    gap: 8px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+form button:last-of-type {
+    background-color: #dc3545;
+}
+
+form button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h2 button {
+    margin-left: 15px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+h2 button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li button {
+    margin-left: 8px;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6c757d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+li button:hover {
+    background-color: #5a6268;
+}
+
+li button:first-of-type {
+    background-color: #ffc107;
+}
+
+li button:first-of-type:hover {
+    background-color: #e0a800;
+}
+
+li button:last-of-type {
+    background-color: #dc3545;
+}
+
+li button:last-of-type:hover {
+    background-color: #c82333;
+}
