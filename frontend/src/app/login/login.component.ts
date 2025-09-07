@@ -7,7 +7,7 @@ import {FormBuilder, FormGroup, Validators} from "@angular/forms";
     selector: 'app-login',
     styleUrls: ['./login.component.css'],
     template: `
-        <div *ngIf="!authService.isAuthenticated()">
+        <div>
             <h2>Login</h2>
 
             <form (ngSubmit)="onLogin()" [formGroup]="f">
